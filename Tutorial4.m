@@ -1,7 +1,8 @@
+clear all; close all; clc;
 % define the spatial domain
-xlength = 18; % [cm]
+xlength = 10; % [cm]
 % set dimensions of the spatial grid and time step
-ni = 17; % index i for columns in grid, corresponds to x direction
+ni = 50; % index i for columns in grid, corresponds to x direction
 dt = 0.1; % [s]
 dx = xlength / (ni-1);
 % set coefficient of thermal diffusivity
